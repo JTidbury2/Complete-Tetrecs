@@ -1,0 +1,317 @@
+.gamepane {
+    -fx-background-color: black;
+}
+
+.intro {
+    -fx-background-color: black;
+}
+
+.menu-background {
+    -fx-background-image: url("../images/1.jpg");
+    -fx-background-size: cover;
+}
+
+.instruction-background{
+    -fx-background-image: url("../images/3.jpg");
+    -fx-background-size: cover;
+}
+
+.challenge-background {
+    -fx-background-image: url("../images/2.jpg");
+    -fx-background-size: cover;
+}
+
+.score-background {
+    -fx-background-image: url("../images/4.jpg");
+    -fx-background-size: cover;
+}
+
+.lobby-background{
+    -fx-background-image: url("../images/5.jpg");
+    -fx-background-size: cover;
+}
+
+.scroller-pane{
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+}
+
+
+.chat-pane{
+    -fx-background: rgba(0,0,0,0.5);
+    -fx-background-color: rgba(0,0,0,0.1);
+}
+
+.power-background{
+    -fx-background: rgba(100,0,0,1);
+    -fx-background-color: rgba(100,0,0,1);
+}
+
+.menu {
+    -fx-padding: 10;
+}
+
+.menuItem {
+    -fx-background-color: transparent;
+    -fx-font-family: 'Orbitron';
+    -fx-text-fill: white;
+    -fx-font-size: 32px;
+    -fx-font-weight: 700;
+    -fx-border-color: transparent;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.scoreSceneItem {
+    -fx-background-color: transparent;
+    -fx-font-family: 'Orbitron';
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-border-color: transparent;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.scoreSceneItem:hover {
+    -fx-text-fill: yellow;
+}
+
+.scoreSceneItemItem.selected {
+    -fx-text-fill: yellow;
+}
+
+.menuItem:hover {
+    -fx-text-fill: yellow;
+}
+
+.menuItem.selected {
+    -fx-text-fill: yellow;
+}
+
+.bigtitle {
+    -fx-fill: yellow;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 64px;
+    -fx-font-weight: 900;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.title {
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 32px;
+    -fx-font-weight: 900;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.heading {
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.score {
+    -fx-fill: yellow;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.level {
+    -fx-fill: #ff6600;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.hiscore {
+    -fx-fill: orange;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.lives {
+    -fx-fill: yellow;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 18px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.scorelist {
+    -fx-font-size: 20px;
+    -fx-font-family: 'Orbitron';
+    -fx-fill: white;
+}
+
+.messages {
+    -fx-font-size: 10px;
+    -fx-font-family: 'Orbitron';
+    -fx-fill: white;
+}
+
+.scoreitem {
+
+}
+
+.scorer {
+
+}
+
+.leaderboard{
+    -fx-border-style: solid;
+    -fx-border-color: black;
+}
+
+.myscore {
+    -fx-font-weight: 700;
+}
+
+.deadscore {
+    -fx-strikethrough: true;
+}
+
+.points {
+}
+
+.channelList {
+
+}
+
+.channelItem {
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+}
+.channelItem.selected {
+    -fx-fill: yellow;
+}
+
+.leaderboard {
+    -fx-font-size: 16px;
+}
+
+.gameBox {
+    -fx-padding: 10;
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-border-color: white;
+    -fx-border-width: 1;
+}
+
+.scroller {
+    -fx-background-color: transparent;
+}
+
+.scroller .viewport {
+    -fx-background-color: transparent;
+}
+
+.messages {
+    -fx-background-color: transparent;
+    -fx-font-size: 12px;
+    -fx-font-family: 'Orbitron';
+}
+
+.messages Text {
+    -fx-fill: white;
+}
+
+TextField {
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-background-color: rgba(0,0,0,0.5);
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: grey;
+}
+
+.playerBox {
+    -fx-font-size: 14px;
+    -fx-font-family: 'Orbitron';
+}
+
+.playerBox Text {
+    -fx-fill: white;
+}
+
+.myname {
+    -fx-font-weight: 700;
+}
+
+.instructions {
+    -fx-font-size: 20px;
+    -fx-font-family: 'Orbitron';
+    -fx-fill: white;
+}
+
+.gameBlock {
+    -fx-background-color:transparent;
+}
+.gameBlock:hover {
+    -fx-background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.pngfind.com%2Fpngs%2Fm%2F243-2437878_circle-grey-solid-grey-colour-circle-png-transparent.png&imgrefurl=https%3A%2F%2Fwww.pngfind.com%2Fmpng%2FihRiTJJ_circle-grey-solid-grey-colour-circle-png-transparent%2F&tbnid=i8icY4J3qBA8zM&vet=12ahUKEwicidadien2AhWmAXcKHaMODEMQMygBegUIARDOAQ..i&docid=C5c5XuFM6qk4LM&w=840&h=880&q=grey%20circle%20transparent&ved=2ahUKEwicidadien2AhWmAXcKHaMODEMQMygBegUIARDOAQ");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 500 500;
+    -fx-background-position: center center;
+}
+
+.green_bar{
+    -fx-accent: green;
+    -fx-control-inner-background: transparent;
+    -fx-text-box-border: transparent;
+}
+.green_bar .track{
+    -fx-background-color: transparent;
+}
+.yellow_bar{-fx-accent: yellow;
+    -fx-control-inner-background: transparent;
+    -fx-text-box-border: transparent;}
+.yellow_bar .track{
+    -fx-background-color: transparent;
+}
+.orange_bar{-fx-accent: orange;
+    -fx-control-inner-background: transparent;
+    -fx-text-box-border: transparent;}
+.orange_bar .track{
+    -fx-background-color: transparent;
+}
+.red_bar{-fx-accent: red;
+    -fx-control-inner-background: transparent;
+    -fx-text-box-border: transparent;}
+.red_bar .track{
+    -fx-background-color: transparent;
+}
+.blue_bar{
+    -fx-accent: blue;
+    -fx-control-inner-background: transparent;
+    -fx-text-box-border: transparent;
+}
+.blue_bar .track {
+    -fx-background-color: transparent;
+}
